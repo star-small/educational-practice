@@ -2,7 +2,7 @@ import json
 import sqlite3
 from datetime import datetime
 
-json_file = '/home/troy/dev/practice/file.json'
+json_file = 'file.json'
 with open(json_file, 'r') as f:
     data = json.load(f)
 
